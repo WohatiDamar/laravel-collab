@@ -4,7 +4,7 @@
     <title> Add New Product </title>
 </head>
 <body>
-    <h1>Add New Product</h1>
+    <h1>Add New Products</h1>
     
     <form action="{{ url('/products') }}" method="POST">
         @csrf
